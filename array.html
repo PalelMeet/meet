@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>methos</title>
+</head>
+<body>
+<script>
+var a=new Array(5);
+//var sum=0;
+for(var i=0;i<=4;i++)
+{
+	a[i]=parseInt(prompt("enter the value",""));
+	document.write(" <br> value is : "+a[i]);
+	//sum=sum+a[i];
+}
+//document.write("<br> sum is "+sum);
+document.write("<br> sorted is:"+a.sort());
+document.write("<br> reverse array is:"+a.reverse());
+document.write("<br> array is:"+a[2]);
+document.write("<br> sorted length is:"+a.length);
+document.write("<br> two array concat is:"+a.concat(a));
+document.write("<br> array join is:"+a.join(","));
+document.write("<br> pop is:"+a.pop());
+document.write("<br> shift is:"+a.shift());
+document.write("<br> push is:"+a.push("7"));
+document.write("<br> unshift is:"+a.unshift("9"));
+
+document.write("<br> slice is:"+a.slice(0,2));
+</script>
+</body>
+</html>
